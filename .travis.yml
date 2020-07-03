@@ -21,6 +21,7 @@ before_deploy:
 - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
 - git tag $TRAVIS_TAG
 - ls
+- ls Gerbers/
 deploy:
   provider: releases
   api_key:
@@ -28,5 +29,4 @@ deploy:
   file: Gerbers/KAT-101_gerbers.zip
   on:
     repo: w4xzr/KAT-101
-  cleanup: false
-deploy.skip_cleanup: true
+  skip_cleanup: 'true'
