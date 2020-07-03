@@ -27,4 +27,4 @@ deploy:
   file: Gerbers/KAT-101_gerbers.zip
   on:
     repo: w4xzr/KAT-101
-  cleanup: 'false'
+  cleanup: false
