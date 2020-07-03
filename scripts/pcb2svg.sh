@@ -1,8 +1,8 @@
 #!/bin/sh
 
 TEMP=$(basename "${TRAVIS_REPO_SLUG}")
-mkdir -p Images  > /dev/null 2>&1
-mkdir -p Gerbers  > /dev/null 2>&1
+mkdir -p ../Images  > /dev/null 2>&1
+mkdir -p ../Gerbers  > /dev/null 2>&1
 
 python3 plot_gerbers.py "../$TEMP.kicad_pcb"
 echo python3 plot_board.py "../$TEMP.kicad_pcb"
