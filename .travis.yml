@@ -28,3 +28,4 @@ deploy:
   on:
     repo: w4xzr/KAT-101
   cleanup: false
+deploy.skip_cleanup: true
