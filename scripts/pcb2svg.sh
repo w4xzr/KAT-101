@@ -9,7 +9,7 @@ echo python3 plot_board.py "../$TEMP.kicad_pcb"
 mv "../plot/$TEMP-Front.png" "../Images/Front.png"
 mv "../plot/$TEMP-Back.png" "../Images/Back.png"
 mv ../plot/$TEMP\_gerbers.zip ../Gerbers/  > /dev/null 2>&1
-
+ls .. && ls ../Gerbers
 rm ../plot/*
 rm -d ../plot
 ./travis_push.sh
