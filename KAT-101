@@ -1,5 +1,0 @@
-Reference, Quantity, Value, Footprint, Datasheet, LCSC Part #, Manufacturer, Part Number
-D5 D4 D3 D2 D1 D6 D7 D8 D13 D12 D11 D10 D9 D14 D15 D16 ,16,"LED","LED_SMD:LED_0805_2012Metric_Castellated","~","C63855","Everlight Elec","17-21/GHC-XS1T2M/3T"
-FID1 FID2 FID3 ,3,"Fiducial","Fiducial:Fiducial_0.75mm_Mask1.5mm","~"
-J1 J2 ,2,"Conn_01x10","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
-R5 R4 R3 R2 R1 R6 R7 R8 R13 R12 R11 R10 R9 R14 R15 R16 ,16,"R_US","Resistor_SMD:R_0805_2012Metric","~","C17557","UNI-ROYAL(Uniroyal Elec)","0805W8F2200T5E"
